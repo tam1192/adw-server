@@ -1,0 +1,33 @@
+command-block-overrides: []
+ignore-vanilla-permissions: false
+aliases:
+  icanhasbukkit:
+  - version $1-
+  lobby:
+  - multiverse-core:mvtp lobby
+  tam1192:
+  - multiverse-core:mvtp tam1192
+  fs:
+  - gfly:flyspeed $$1
+  ts:
+  - train_carts:train launch $$1
+  ps:
+  - minecraft:playsound $$1 record @a ~ ~ ~ $$2 $$3
+  ss:
+  - minecraft: save-all
+  w:
+  - fastasyncworldedit:/wand
+  rep:
+  - fastasyncworldedit:/replace hand offhand
+  air:
+  - fastasyncworldedit:/replace air hand
+  set:
+  - fastasyncworldedit:/set hand
+  cc:
+  - fastasyncworldedit:/copy
+  cv:
+  - fastasyncworldedit:/paste
+  spd:
+  - minecraft:tag @p $$1 fast_speed
+  nvn:
+  - minecraft:tag @p $$1 night_vision
